@@ -1,0 +1,224 @@
+[
+  {
+    "id": "cedula_identidad_chilenos",
+    "titulo": "Cedula de identidad para chilenos",
+    "keywords": ["cedula", "carnet", "carnet de identidad", "cedula de identidad", "renovar carnet", "renovacion carnet", "renovar cedula", "sacar cedula"],
+    "respuesta": "La cedula de identidad acredita la identidad de una persona chilena. Para primera obtencion o renovacion, normalmente debes reservar hora y concurrir a la oficina para captura y retiro del documento.",
+    "canal": "mixto",
+    "presencialidad": "si",
+    "requiere_clave_unica": "si",
+    "fuente": "https://www.chileatiende.gob.cl/fichas/3430-cedula-de-identidad"
+  },
+  {
+    "id": "cedula_identidad_extranjeros",
+    "titulo": "Cedula de identidad para extranjeros",
+    "keywords": ["cedula extranjero", "cedula para extranjeros", "carnet extranjero", "renovar carnet extranjero", "renovar cedula extranjero", "primera cedula extranjero"],
+    "respuesta": "Permite obtener o renovar la cedula chilena para personas extranjeras. Debes reservar hora y asistir presencialmente con los documentos requeridos.",
+    "canal": "mixto",
+    "presencialidad": "si",
+    "requiere_clave_unica": "si",
+    "fuente": "https://www.chileatiende.gob.cl/fichas/3337-cedula-de-identidad-para-extranjeros-obtencion-y-renovacion"
+  },
+  {
+    "id": "pasaporte",
+    "titulo": "Pasaporte",
+    "keywords": ["pasaporte", "renovar pasaporte", "sacar pasaporte", "viajar al extranjero", "documento de viaje"],
+    "respuesta": "El pasaporte es el documento de viaje emitido por el Registro Civil. Para obtenerlo o renovarlo, normalmente debes reservar hora y asistir presencialmente a la oficina.",
+    "canal": "mixto",
+    "presencialidad": "si",
+    "requiere_clave_unica": "si",
+    "fuente": "https://www.chileatiende.gob.cl/fichas/3445-pasaporte"
+  },
+  {
+    "id": "clave_unica",
+    "titulo": "ClaveUnica",
+    "keywords": ["clave unica", "claveunica", "activar clave unica", "recuperar clave unica", "sacar clave unica"],
+    "respuesta": "La ClaveUnica es la identidad digital para acceder a servicios del Estado. Puede solicitarse por videoconferencia o en oficinas del Registro Civil y luego activarse.",
+    "canal": "online y presencial",
+    "presencialidad": "no obligatoria",
+    "requiere_clave_unica": "no",
+    "fuente": "https://www.chileatiende.gob.cl/fichas/11331-clave-unica"
+  },
+  {
+    "id": "certificado_antecedentes",
+    "titulo": "Certificado de antecedentes",
+    "keywords": ["antecedentes", "certificado de antecedentes", "papel de antecedentes", "antecedentes penales", "sacar antecedentes"],
+    "respuesta": "El certificado de antecedentes puede descargarse gratis en linea; en oficina del Registro Civil tiene costo. Sirve para acreditar antecedentes para distintos tramites.",
+    "canal": "online y presencial",
+    "presencialidad": "no obligatoria",
+    "requiere_clave_unica": "si",
+    "fuente": "https://www.chileatiende.gob.cl/fichas/3442-certificado-de-antecedentes"
+  },
+  {
+    "id": "certificado_nacimiento",
+    "titulo": "Certificado de nacimiento",
+    "keywords": ["certificado de nacimiento", "partida de nacimiento", "sacar certificado nacimiento", "nacimiento"],
+    "respuesta": "Acredita los datos de inscripcion del nacimiento. Puede obtenerse para todo tramite, asignacion familiar o matricula.",
+    "canal": "online y presencial",
+    "presencialidad": "no obligatoria",
+    "requiere_clave_unica": "no",
+    "fuente": "https://www.chileatiende.gob.cl/fichas/9380-certificado-de-nacimiento"
+  },
+  {
+    "id": "certificado_matrimonio",
+    "titulo": "Certificado de matrimonio e informe de cese de convivencia",
+    "keywords": ["certificado de matrimonio", "matrimonio", "cese de convivencia", "solteria", "certificado no matrimonio"],
+    "respuesta": "Permite obtener certificados de matrimonio y algunos informes asociados, como no matrimonio o cese de convivencia, segun corresponda.",
+    "canal": "online y presencial",
+    "presencialidad": "no obligatoria",
+    "requiere_clave_unica": "no",
+    "fuente": "https://www.chileatiende.gob.cl/fichas/4682-certificado-de-matrimonio-e-informe-de-cese-de-convivencia"
+  },
+  {
+    "id": "certificado_defuncion",
+    "titulo": "Certificado de defuncion e informe de no defuncion",
+    "keywords": ["certificado de defuncion", "defuncion", "informe de no defuncion", "fallecimiento"],
+    "respuesta": "Acredita legalmente el fallecimiento de una persona o, en su caso, permite solicitar un informe de no defuncion.",
+    "canal": "online y presencial",
+    "presencialidad": "no obligatoria",
+    "requiere_clave_unica": "no",
+    "fuente": "https://www.chileatiende.gob.cl/fichas/4680-certificado-e-informe-de-no-defuncion"
+  },
+  {
+    "id": "inscripcion_nacimiento",
+    "titulo": "Inscripcion de nacimiento",
+    "keywords": ["inscribir nacimiento", "inscripcion de nacimiento", "inscribir recien nacido", "nacimiento recien nacido"],
+    "respuesta": "Permite inscribir nacimientos ocurridos en Chile en oficinas o suboficinas del Registro Civil, incluyendo las ubicadas en hospitales y clinicas.",
+    "canal": "presencial",
+    "presencialidad": "si",
+    "requiere_clave_unica": "no",
+    "fuente": "https://www.chileatiende.gob.cl/fichas/3394-inscripcion-de-nacimiento"
+  },
+  {
+    "id": "inscripcion_defuncion",
+    "titulo": "Inscripcion de una defuncion",
+    "keywords": ["inscribir defuncion", "inscripcion de defuncion", "registrar fallecimiento", "inscribir fallecimiento"],
+    "respuesta": "Permite registrar oficialmente una defuncion en el Registro Civil, segun el tipo de fallecimiento y los documentos disponibles.",
+    "canal": "presencial",
+    "presencialidad": "si",
+    "requiere_clave_unica": "no",
+    "fuente": "https://www.chileatiende.gob.cl/fichas/3433-inscripcion-de-una-defuncion"
+  },
+  {
+    "id": "reserva_hora_matrimonio_civil",
+    "titulo": "Reservar hora para matrimonio civil o inscripcion del matrimonio religioso",
+    "keywords": ["reservar hora matrimonio", "matrimonio civil", "inscripcion matrimonio religioso", "casarse", "hora matrimonio"],
+    "respuesta": "Permite reservar hora para celebrar matrimonio civil o para inscribir un matrimonio religioso con efectos civiles.",
+    "canal": "mixto",
+    "presencialidad": "si",
+    "requiere_clave_unica": "si",
+    "fuente": "https://www.chileatiende.gob.cl/fichas/3373-reservar-hora-para-matrimonio-civil-o-inscripcion-del-matrimonio-religioso"
+  },
+  {
+    "id": "acuerdo_union_civil",
+    "titulo": "Acuerdo de Union Civil (AUC)",
+    "keywords": ["auc", "acuerdo de union civil", "union civil", "conviviente civil"],
+    "respuesta": "Permite celebrar un Acuerdo de Union Civil entre dos personas y obtener el estado de convivientes civiles.",
+    "canal": "mixto",
+    "presencialidad": "si",
+    "requiere_clave_unica": "si",
+    "fuente": "https://www.chileatiende.gob.cl/fichas/37532-acuerdo-de-union-civil-auc"
+  },
+  {
+  "id": "transferencia_vehiculo_oficial_civil",
+  "titulo": "Transferencia de dominio de vehiculos motorizados ante un oficial civil",
+  "keywords": [
+    "transferencia vehiculo",
+    "transferencia de vehiculo",
+    "transferencia de auto",
+    "transferir vehiculo",
+    "transferir un vehiculo",
+    "quiero transferir un vehiculo",
+    "cambiar propietario vehiculo",
+    "cambio de propietario vehiculo",
+    "compraventa auto",
+    "venta de auto",
+    "vehiculo"
+  ],
+  "respuesta": "Formaliza la compraventa de un vehiculo motorizado ante un oficial civil del Registro Civil. Normalmente requiere reserva de hora y atencion presencial.",
+  "canal": "presencial",
+  "presencialidad": "si",
+  "requiere_clave_unica": "si",
+  "fuente": "https://www.chileatiende.gob.cl/fichas/3343-transferencia-de-dominio-de-vehiculos-motorizados-ante-un-oficial-civil"
+ },
+  {
+    "id": "cancelar_inscripcion_vehiculo",
+    "titulo": "Cancelar la inscripcion de un vehiculo motorizado",
+    "keywords": ["cancelar inscripcion vehiculo", "dar de baja vehiculo", "cancelar auto", "cancelar inscripcion auto"],
+    "respuesta": "Permite cancelar la inscripcion de un vehiculo en el Registro de Vehiculos Motorizados, segun la causal correspondiente.",
+    "canal": "presencial",
+    "presencialidad": "si",
+    "requiere_clave_unica": "no",
+    "fuente": "https://www.chileatiende.gob.cl/fichas/3346-cancelar-la-inscripcion-de-un-vehiculo-motorizado"
+  },
+  {
+    "id": "certificado_anotaciones_vigentes_vehiculo",
+    "titulo": "Certificado de anotaciones vigentes de vehiculos motorizados",
+    "keywords": ["anotaciones vigentes", "certificado vehiculo", "anotaciones vehiculo", "historial vehiculo"],
+    "respuesta": "Permite conocer informacion registral relevante del vehiculo, como dueños anteriores y limitaciones al dominio vigentes.",
+    "canal": "presencial",
+    "presencialidad": "si",
+    "requiere_clave_unica": "no",
+    "fuente": "https://www.chileatiende.gob.cl/fichas/3370-certificado-de-anotaciones-vigentes-de-vehiculos-motorizados"
+  },
+  {
+    "id": "certificado_padron",
+    "titulo": "Certificado de inscripcion de vehiculos motorizados (padron)",
+    "keywords": ["padron", "certificado padron", "inscripcion vehiculo", "padron auto"],
+    "respuesta": "El padron contiene los datos del vehiculo y del propietario registrados en el Registro de Vehiculos Motorizados.",
+    "canal": "presencial",
+    "presencialidad": "si",
+    "requiere_clave_unica": "no",
+    "fuente": "https://www.chileatiende.gob.cl/fichas/3412-certificado-de-inscripcion-de-vehiculos-motorizados-padron"
+  },
+  {
+    "id": "certificado_multas_transito",
+    "titulo": "Certificado de multas de transito no pagadas",
+    "keywords": ["multas transito", "multas no pagadas", "partes no pagados", "certificado de multas"],
+    "respuesta": "Permite consultar y acreditar si un vehiculo registra multas de transito no pagadas inscritas en el registro correspondiente.",
+    "canal": "por validar en demo",
+    "presencialidad": "depende",
+    "requiere_clave_unica": "depende",
+    "fuente": "https://www.chileatiende.gob.cl/fichas/3439-certificado-de-multas-de-transito-no-pagadas"
+  },
+  {
+    "id": "solicitud_eliminacion_antecedentes_penales",
+    "titulo": "Solicitud de eliminacion de antecedentes penales",
+    "keywords": ["eliminar antecedentes", "eliminacion antecedentes", "borrar antecedentes penales", "antecedentes penales"],
+    "respuesta": "Permite solicitar al Registro Civil la eliminacion definitiva de determinadas anotaciones prontuariales, cuando la normativa lo permite.",
+    "canal": "presencial",
+    "presencialidad": "si",
+    "requiere_clave_unica": "no",
+    "fuente": "https://www.chileatiende.gob.cl/fichas/3358-solicitud-de-eliminacion-de-antecedentes-penales"
+  },
+  {
+    "id": "solicitud_omision_antecedentes_penales",
+    "titulo": "Solicitud de omision de antecedentes penales",
+    "keywords": ["omision antecedentes", "omitir antecedentes", "no incluir antecedentes", "solicitud omision antecedentes"],
+    "respuesta": "Permite solicitar que algunas anotaciones no sean incluidas en los certificados de antecedentes penales, segun corresponda.",
+    "canal": "presencial",
+    "presencialidad": "si",
+    "requiere_clave_unica": "no",
+    "fuente": "https://www.chileatiende.gob.cl/fichas/3427-solicitud-de-omision-de-antecedentes-penales"
+  },
+  {
+    "id": "posesion_efectiva_intestada",
+    "titulo": "Posesion efectiva de herencias intestadas (sin testamento)",
+    "keywords": ["posesion efectiva", "herencia sin testamento", "herencia intestada", "tramite herencia"],
+    "respuesta": "Permite solicitar la posesion efectiva de una herencia cuando la persona fallecida no dejo testamento.",
+    "canal": "mixto",
+    "presencialidad": "depende",
+    "requiere_clave_unica": "si",
+    "fuente": "https://www.chileatiende.gob.cl/fichas/3364-posesion-efectiva-de-herencias-intestadas-sin-testamento"
+  },
+  {
+    "id": "cambio_nombre_apellido",
+    "titulo": "Cambio de nombre y/o apellido y rectificacion de la partida de nacimiento",
+    "keywords": ["cambiar nombre", "cambiar apellido", "rectificar partida", "rectificacion nacimiento", "cambio de nombre"],
+    "respuesta": "Permite solicitar el cambio de nombre y/o apellido y la rectificacion correspondiente en la partida de nacimiento.",
+    "canal": "presencial",
+    "presencialidad": "si",
+    "requiere_clave_unica": "no",
+    "fuente": "https://www.chileatiende.gob.cl/fichas/3379-cambio-de-nombre-yo-apellido-y-rectificacion-de-la-partida-de-nacimiento"
+  }
+]
