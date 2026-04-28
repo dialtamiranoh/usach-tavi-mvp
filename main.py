@@ -36,6 +36,7 @@ class ChatMessage(BaseModel):
 class ContextData(BaseModel):
     tramite: Optional[str] = None
     respuesta_base: Optional[str] = None
+    costo: Optional[str] = None
     canal: Optional[str] = None
     presencialidad: Optional[str] = None
     requiere_clave_unica: Optional[str] = None
@@ -109,6 +110,7 @@ def context_to_item(context: ContextData) -> Optional[dict]:
     return {
         "titulo": context.tramite,
         "respuesta": context.respuesta_base,
+        "costo": context.costo,
         "canal": context.canal,
         "presencialidad": context.presencialidad,
         "requiere_clave_unica": context.requiere_clave_unica,
@@ -142,6 +144,7 @@ def generate_llm_response(
         "responde en espanol claro, breve y natural. "
         "usa un solo parrafo, sin listas y con maximo 3 oraciones. "
         "si la pregunta es de seguimiento, responde considerando que el usuario sigue hablando del mismo tramite. "
+        "menciona claramente el costo del trámite si está disponible. "
         "menciona si requiere presencialidad, si requiere clave unica y termina con la fuente oficial."
     )
 
@@ -150,6 +153,7 @@ def generate_llm_response(
     context_text = f"""
 tramite: {item['titulo']}
 respuesta base: {item['respuesta']}
+costo: {item.get('costo', 'No especificado')}
 canal: {item['canal']}
 presencialidad: {item['presencialidad']}
 requiere clave unica: {item['requiere_clave_unica']}
@@ -246,6 +250,7 @@ def ask_question(question: Question):
         return {
             "tramite": matched_item["titulo"],
             "respuesta": respuesta_ia,
+            "costo": matched_item.get("costo"),
             "respuesta_base": matched_item["respuesta"],
             "canal": matched_item["canal"],
             "presencialidad": matched_item["presencialidad"],
@@ -256,6 +261,7 @@ def ask_question(question: Question):
     return {
         "tramite": "No identificado",
         "respuesta": "ARCO todavia no tiene informacion suficiente para orientar ese tramite dentro del alcance actual del demo.",
+        "costo": None,
         "respuesta_base": None,
         "canal": None,
         "presencialidad": None,
