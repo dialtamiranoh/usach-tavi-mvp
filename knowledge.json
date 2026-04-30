@@ -2,9 +2,22 @@
   {
     "id": "cedula_identidad_chilenos",
     "titulo": "Cedula de identidad para chilenos",
-    "keywords": ["cedula", "carnet", "carnet de identidad", "cedula de identidad", "renovar carnet", "renovacion carnet", "renovar cedula", "sacar cedula"],
+    "keywords": [
+      "cedula",
+      "carnet",
+      "carnet de identidad",
+      "cedula de identidad",
+      "renovar carnet",
+      "renovacion carnet",
+      "renovar cedula",
+      "sacar cedula",
+      "cuanto demora cedula",
+      "cuanto tarda cedula",
+      "tiempo entrega cedula"
+    ],
     "respuesta": "La cedula de identidad acredita la identidad de una persona chilena. Para primera obtencion o renovacion, normalmente debes reservar hora y concurrir a la oficina para captura y retiro del documento.",
     "costo": "$3.820",
+    "duracion": "El plazo de entrega es de 8 dias habiles para renovacion en la Region Metropolitana, 10 dias habiles para primera obtencion en la Region Metropolitana, y hasta 12 dias habiles en regiones. El retiro es presencial obligatorio en la misma oficina donde se realizo la solicitud.",
     "canal": "mixto",
     "presencialidad": "si",
     "requiere_clave_unica": "si",
@@ -13,9 +26,19 @@
   {
     "id": "cedula_identidad_extranjeros",
     "titulo": "Cedula de identidad para extranjeros",
-    "keywords": ["cedula extranjero", "cedula para extranjeros", "carnet extranjero", "renovar carnet extranjero", "renovar cedula extranjero", "primera cedula extranjero"],
+    "keywords": [
+      "cedula extranjero",
+      "cedula para extranjeros",
+      "carnet extranjero",
+      "renovar carnet extranjero",
+      "renovar cedula extranjero",
+      "primera cedula extranjero",
+      "cuanto demora cedula extranjero",
+      "tiempo entrega cedula extranjero"
+    ],
     "respuesta": "Permite obtener o renovar la cedula chilena para personas extranjeras. Debes reservar hora y asistir presencialmente con los documentos requeridos.",
     "costo": "$4.270",
+    "duracion": "El plazo de entrega es de aproximadamente 20 dias habiles desde la solicitud. El retiro es presencial obligatorio en la oficina donde se realizo el tramite.",
     "canal": "mixto",
     "presencialidad": "si",
     "requiere_clave_unica": "si",
@@ -24,9 +47,19 @@
   {
     "id": "pasaporte",
     "titulo": "Pasaporte",
-    "keywords": ["pasaporte", "renovar pasaporte", "sacar pasaporte", "viajar al extranjero", "documento de viaje"],
+    "keywords": [
+      "pasaporte",
+      "renovar pasaporte",
+      "sacar pasaporte",
+      "viajar al extranjero",
+      "documento de viaje",
+      "cuanto demora pasaporte",
+      "tiempo entrega pasaporte",
+      "cuanto tarda pasaporte"
+    ],
     "respuesta": "El pasaporte es el documento de viaje emitido por el Registro Civil. Para obtenerlo o renovarlo, normalmente debes reservar hora y asistir presencialmente a la oficina.",
     "costo": "$69.660 (32 paginas) / $69.740 (64 paginas)",
+    "duracion": "El plazo de entrega es de 8 dias habiles desde la solicitud. El retiro es presencial obligatorio y el solicitante tiene hasta 3 meses para retirar el documento desde que este disponible.",
     "canal": "mixto",
     "presencialidad": "si",
     "requiere_clave_unica": "si",
@@ -35,9 +68,17 @@
   {
     "id": "clave_unica",
     "titulo": "ClaveUnica",
-    "keywords": ["clave unica", "claveunica", "activar clave unica", "recuperar clave unica", "sacar clave unica"],
+    "keywords": [
+      "clave unica",
+      "claveunica",
+      "activar clave unica",
+      "recuperar clave unica",
+      "sacar clave unica",
+      "cuanto demora clave unica"
+    ],
     "respuesta": "La ClaveUnica es la identidad digital para acceder a servicios del Estado. Puede solicitarse por videoconferencia o en oficinas del Registro Civil y luego activarse.",
     "costo": "Gratis",
+    "duracion": "La activacion es inmediata una vez completado el proceso de verificacion de identidad, ya sea por videoconferencia o de forma presencial.",
     "canal": "online y presencial",
     "presencialidad": "no obligatoria",
     "requiere_clave_unica": "no",
@@ -46,9 +87,18 @@
   {
     "id": "certificado_antecedentes",
     "titulo": "Certificado de antecedentes",
-    "keywords": ["antecedentes", "certificado de antecedentes", "papel de antecedentes", "antecedentes penales", "sacar antecedentes"],
+    "keywords": [
+      "antecedentes",
+      "certificado de antecedentes",
+      "papel de antecedentes",
+      "antecedentes penales",
+      "sacar antecedentes",
+      "cuanto demora antecedentes",
+      "tiempo antecedentes"
+    ],
     "respuesta": "El certificado de antecedentes puede descargarse gratis en linea; en oficina del Registro Civil tiene costo. Sirve para acreditar antecedentes para distintos tramites.",
     "costo": "Gratis en linea / $1.050 en oficina",
+    "duracion": "Si se solicita en linea, la entrega es inmediata y gratuita. Si se solicita en oficina, la entrega es en el momento con costo de $1.050.",
     "canal": "online y presencial",
     "presencialidad": "no obligatoria",
     "requiere_clave_unica": "si",
@@ -57,9 +107,16 @@
   {
     "id": "certificado_nacimiento",
     "titulo": "Certificado de nacimiento",
-    "keywords": ["certificado de nacimiento", "partida de nacimiento", "sacar certificado nacimiento", "nacimiento"],
+    "keywords": [
+      "certificado de nacimiento",
+      "partida de nacimiento",
+      "sacar certificado nacimiento",
+      "nacimiento",
+      "cuanto demora certificado nacimiento"
+    ],
     "respuesta": "Acredita los datos de inscripcion del nacimiento. Puede obtenerse para todo tramite, asignacion familiar o matricula.",
     "costo": "Gratis en linea / $710 en oficina",
+    "duracion": "La entrega es inmediata tanto en linea como en oficina.",
     "canal": "online y presencial",
     "presencialidad": "no obligatoria",
     "requiere_clave_unica": "no",
@@ -68,9 +125,17 @@
   {
     "id": "certificado_matrimonio",
     "titulo": "Certificado de matrimonio e informe de cese de convivencia",
-    "keywords": ["certificado de matrimonio", "matrimonio", "cese de convivencia", "solteria", "certificado no matrimonio"],
+    "keywords": [
+      "certificado de matrimonio",
+      "matrimonio",
+      "cese de convivencia",
+      "solteria",
+      "certificado no matrimonio",
+      "cuanto demora certificado matrimonio"
+    ],
     "respuesta": "Permite obtener certificados de matrimonio y algunos informes asociados, como no matrimonio o cese de convivencia, segun corresponda.",
     "costo": "Gratis en linea / $710 en oficina",
+    "duracion": "La entrega es inmediata tanto en linea como en oficina.",
     "canal": "online y presencial",
     "presencialidad": "no obligatoria",
     "requiere_clave_unica": "no",
@@ -79,9 +144,16 @@
   {
     "id": "certificado_defuncion",
     "titulo": "Certificado de defuncion e informe de no defuncion",
-    "keywords": ["certificado de defuncion", "defuncion", "informe de no defuncion", "fallecimiento"],
+    "keywords": [
+      "certificado de defuncion",
+      "defuncion",
+      "informe de no defuncion",
+      "fallecimiento",
+      "cuanto demora certificado defuncion"
+    ],
     "respuesta": "Acredita legalmente el fallecimiento de una persona o, en su caso, permite solicitar un informe de no defuncion.",
     "costo": "Gratis en linea / $710 en oficina",
+    "duracion": "La entrega es inmediata tanto en linea como en oficina.",
     "canal": "online y presencial",
     "presencialidad": "no obligatoria",
     "requiere_clave_unica": "no",
@@ -90,9 +162,16 @@
   {
     "id": "inscripcion_nacimiento",
     "titulo": "Inscripcion de nacimiento",
-    "keywords": ["inscribir nacimiento", "inscripcion de nacimiento", "inscribir recien nacido", "nacimiento recien nacido"],
+    "keywords": [
+      "inscribir nacimiento",
+      "inscripcion de nacimiento",
+      "inscribir recien nacido",
+      "nacimiento recien nacido",
+      "cuanto demora inscripcion nacimiento"
+    ],
     "respuesta": "Permite inscribir nacimientos ocurridos en Chile en oficinas o suboficinas del Registro Civil, incluyendo las ubicadas en hospitales y clinicas.",
     "costo": "Gratis",
+    "duracion": "El tramite se realiza en el momento de forma presencial. El plazo legal para inscribir un nacimiento es de 60 dias desde el nacimiento.",
     "canal": "presencial",
     "presencialidad": "si",
     "requiere_clave_unica": "no",
@@ -101,9 +180,16 @@
   {
     "id": "inscripcion_defuncion",
     "titulo": "Inscripcion de una defuncion",
-    "keywords": ["inscribir defuncion", "inscripcion de defuncion", "registrar fallecimiento", "inscribir fallecimiento"],
+    "keywords": [
+      "inscribir defuncion",
+      "inscripcion de defuncion",
+      "registrar fallecimiento",
+      "inscribir fallecimiento",
+      "cuanto demora inscripcion defuncion"
+    ],
     "respuesta": "Permite registrar oficialmente una defuncion en el Registro Civil, segun el tipo de fallecimiento y los documentos disponibles.",
     "costo": "Gratis",
+    "duracion": "El tramite se realiza en el momento de forma presencial. Debe realizarse dentro de 3 dias habiles desde el fallecimiento.",
     "canal": "presencial",
     "presencialidad": "si",
     "requiere_clave_unica": "no",
@@ -112,9 +198,17 @@
   {
     "id": "reserva_hora_matrimonio_civil",
     "titulo": "Reservar hora para matrimonio civil o inscripcion del matrimonio religioso",
-    "keywords": ["reservar hora matrimonio", "matrimonio civil", "inscripcion matrimonio religioso", "casarse", "hora matrimonio"],
+    "keywords": [
+      "reservar hora matrimonio",
+      "matrimonio civil",
+      "inscripcion matrimonio religioso",
+      "casarse",
+      "hora matrimonio",
+      "cuanto demora matrimonio civil"
+    ],
     "respuesta": "Permite reservar hora para celebrar matrimonio civil o para inscribir un matrimonio religioso con efectos civiles.",
     "costo": "Gratis (la celebracion u oficina tiene costo variable segun horario/lugar)",
+    "duracion": "La reserva de hora es inmediata en linea. La ceremonia se agenda segun disponibilidad de la oficina, generalmente con semanas o meses de anticipacion.",
     "canal": "mixto",
     "presencialidad": "si",
     "requiere_clave_unica": "si",
@@ -123,43 +217,60 @@
   {
     "id": "acuerdo_union_civil",
     "titulo": "Acuerdo de Union Civil (AUC)",
-    "keywords": ["auc", "acuerdo de union civil", "union civil", "conviviente civil"],
+    "keywords": [
+      "auc",
+      "acuerdo de union civil",
+      "union civil",
+      "conviviente civil",
+      "cuanto demora union civil"
+    ],
     "respuesta": "Permite celebrar un Acuerdo de Union Civil entre dos personas y obtener el estado de convivientes civiles.",
     "costo": "Gratis (en oficina y horario habil)",
+    "duracion": "La reserva de hora es inmediata en linea. La ceremonia se agenda segun disponibilidad de la oficina.",
     "canal": "mixto",
     "presencialidad": "si",
     "requiere_clave_unica": "si",
     "fuente": "https://www.chileatiende.gob.cl/fichas/37532-acuerdo-de-union-civil-auc"
   },
   {
-  "id": "transferencia_vehiculo_oficial_civil",
-  "titulo": "Transferencia de dominio de vehiculos motorizados ante un oficial civil",
-  "keywords": [
-    "transferencia vehiculo",
-    "transferencia de vehiculo",
-    "transferencia de auto",
-    "transferir vehiculo",
-    "transferir un vehiculo",
-    "quiero transferir un vehiculo",
-    "cambiar propietario vehiculo",
-    "cambio de propietario vehiculo",
-    "compraventa auto",
-    "venta de auto",
-    "vehiculo"
-  ],
-  "respuesta": "Formaliza la compraventa de un vehiculo motorizado ante un oficial civil del Registro Civil. Normalmente requiere reserva de hora y atencion presencial.",
-  "costo": "$6.740 + impuesto 1,5% del valor de venta",
-  "canal": "presencial",
-  "presencialidad": "si",
-  "requiere_clave_unica": "si",
-  "fuente": "https://www.chileatiende.gob.cl/fichas/3343-transferencia-de-dominio-de-vehiculos-motorizados-ante-un-oficial-civil"
- },
+    "id": "transferencia_vehiculo_oficial_civil",
+    "titulo": "Transferencia de dominio de vehiculos motorizados ante un oficial civil",
+    "keywords": [
+      "transferencia vehiculo",
+      "transferencia de vehiculo",
+      "transferencia de auto",
+      "transferir vehiculo",
+      "transferir un vehiculo",
+      "quiero transferir un vehiculo",
+      "cambiar propietario vehiculo",
+      "cambio de propietario vehiculo",
+      "compraventa auto",
+      "venta de auto",
+      "vehiculo",
+      "cuanto demora transferencia vehiculo",
+      "tiempo transferencia auto"
+    ],
+    "respuesta": "Formaliza la compraventa de un vehiculo motorizado ante un oficial civil del Registro Civil. Normalmente requiere reserva de hora y atencion presencial.",
+    "costo": "$6.740 + impuesto 1,5% del valor de venta",
+    "duracion": "El tramite se realiza en el momento de la atencion presencial. El cambio de propietario queda registrado inmediatamente en el sistema del Registro Civil.",
+    "canal": "presencial",
+    "presencialidad": "si",
+    "requiere_clave_unica": "si",
+    "fuente": "https://www.chileatiende.gob.cl/fichas/3343-transferencia-de-dominio-de-vehiculos-motorizados-ante-un-oficial-civil"
+  },
   {
     "id": "cancelar_inscripcion_vehiculo",
     "titulo": "Cancelar la inscripcion de un vehiculo motorizado",
-    "keywords": ["cancelar inscripcion vehiculo", "dar de baja vehiculo", "cancelar auto", "cancelar inscripcion auto"],
+    "keywords": [
+      "cancelar inscripcion vehiculo",
+      "dar de baja vehiculo",
+      "cancelar auto",
+      "cancelar inscripcion auto",
+      "cuanto demora cancelar vehiculo"
+    ],
     "respuesta": "Permite cancelar la inscripcion de un vehiculo en el Registro de Vehiculos Motorizados, segun la causal correspondiente.",
     "costo": "$1.050",
+    "duracion": "El tramite se realiza en el momento de la atencion presencial.",
     "canal": "presencial",
     "presencialidad": "si",
     "requiere_clave_unica": "no",
@@ -168,9 +279,16 @@
   {
     "id": "certificado_anotaciones_vigentes_vehiculo",
     "titulo": "Certificado de anotaciones vigentes de vehiculos motorizados",
-    "keywords": ["anotaciones vigentes", "certificado vehiculo", "anotaciones vehiculo", "historial vehiculo"],
-    "respuesta": "Permite conocer informacion registral relevante del vehiculo, como dueños anteriores y limitaciones al dominio vigentes.",
+    "keywords": [
+      "anotaciones vigentes",
+      "certificado vehiculo",
+      "anotaciones vehiculo",
+      "historial vehiculo",
+      "cuanto demora certificado vehiculo"
+    ],
+    "respuesta": "Permite conocer informacion registral relevante del vehiculo, como duenos anteriores y limitaciones al dominio vigentes.",
     "costo": "$1.430",
+    "duracion": "La entrega es inmediata en el momento de la atencion presencial.",
     "canal": "presencial",
     "presencialidad": "si",
     "requiere_clave_unica": "no",
@@ -179,9 +297,16 @@
   {
     "id": "certificado_padron",
     "titulo": "Certificado de inscripcion de vehiculos motorizados (padron)",
-    "keywords": ["padron", "certificado padron", "inscripcion vehiculo", "padron auto"],
+    "keywords": [
+      "padron",
+      "certificado padron",
+      "inscripcion vehiculo",
+      "padron auto",
+      "cuanto demora padron"
+    ],
     "respuesta": "El padron contiene los datos del vehiculo y del propietario registrados en el Registro de Vehiculos Motorizados.",
     "costo": "$1.430",
+    "duracion": "La entrega es inmediata en el momento de la atencion presencial.",
     "canal": "presencial",
     "presencialidad": "si",
     "requiere_clave_unica": "no",
@@ -190,9 +315,16 @@
   {
     "id": "certificado_multas_transito",
     "titulo": "Certificado de multas de transito no pagadas",
-    "keywords": ["multas transito", "multas no pagadas", "partes no pagados", "certificado de multas"],
+    "keywords": [
+      "multas transito",
+      "multas no pagadas",
+      "partes no pagados",
+      "certificado de multas",
+      "cuanto demora certificado multas"
+    ],
     "respuesta": "Permite consultar y acreditar si un vehiculo registra multas de transito no pagadas inscritas en el registro correspondiente.",
     "costo": "$1.430",
+    "duracion": "La entrega es inmediata en el momento de la atencion.",
     "canal": "por validar en demo",
     "presencialidad": "depende",
     "requiere_clave_unica": "depende",
@@ -201,9 +333,16 @@
   {
     "id": "solicitud_eliminacion_antecedentes_penales",
     "titulo": "Solicitud de eliminacion de antecedentes penales",
-    "keywords": ["eliminar antecedentes", "eliminacion antecedentes", "borrar antecedentes penales", "antecedentes penales"],
+    "keywords": [
+      "eliminar antecedentes",
+      "eliminacion antecedentes",
+      "borrar antecedentes penales",
+      "antecedentes penales",
+      "cuanto demora eliminar antecedentes"
+    ],
     "respuesta": "Permite solicitar al Registro Civil la eliminacion definitiva de determinadas anotaciones prontuariales, cuando la normativa lo permite.",
     "costo": "$4.270",
+    "duracion": "El plazo de resolucion es variable y depende del tipo de anotacion. Se recomienda consultar directamente en la oficina al momento de realizar la solicitud.",
     "canal": "presencial",
     "presencialidad": "si",
     "requiere_clave_unica": "no",
@@ -212,9 +351,16 @@
   {
     "id": "solicitud_omision_antecedentes_penales",
     "titulo": "Solicitud de omision de antecedentes penales",
-    "keywords": ["omision antecedentes", "omitir antecedentes", "no incluir antecedentes", "solicitud omision antecedentes"],
+    "keywords": [
+      "omision antecedentes",
+      "omitir antecedentes",
+      "no incluir antecedentes",
+      "solicitud omision antecedentes",
+      "cuanto demora omision antecedentes"
+    ],
     "respuesta": "Permite solicitar que algunas anotaciones no sean incluidas en los certificados de antecedentes penales, segun corresponda.",
     "costo": "$4.270",
+    "duracion": "El plazo de resolucion es variable. Se recomienda consultar en la oficina al momento de presentar la solicitud.",
     "canal": "presencial",
     "presencialidad": "si",
     "requiere_clave_unica": "no",
@@ -223,9 +369,16 @@
   {
     "id": "posesion_efectiva_intestada",
     "titulo": "Posesion efectiva de herencias intestadas (sin testamento)",
-    "keywords": ["posesion efectiva", "herencia sin testamento", "herencia intestada", "tramite herencia"],
+    "keywords": [
+      "posesion efectiva",
+      "herencia sin testamento",
+      "herencia intestada",
+      "tramite herencia",
+      "cuanto demora posesion efectiva"
+    ],
     "respuesta": "Permite solicitar la posesion efectiva de una herencia cuando la persona fallecida no dejo testamento.",
     "costo": "Variable (desde Gratis hasta 2,5 UTM segun valor masa hereditaria)",
+    "duracion": "El plazo de tramitacion es de aproximadamente 30 dias habiles desde que se ingresa la solicitud completa con todos los documentos requeridos.",
     "canal": "mixto",
     "presencialidad": "depende",
     "requiere_clave_unica": "si",
@@ -234,9 +387,17 @@
   {
     "id": "cambio_nombre_apellido",
     "titulo": "Cambio de nombre y/o apellido y rectificacion de la partida de nacimiento",
-    "keywords": ["cambiar nombre", "cambiar apellido", "rectificar partida", "rectificacion nacimiento", "cambio de nombre"],
+    "keywords": [
+      "cambiar nombre",
+      "cambiar apellido",
+      "rectificar partida",
+      "rectificacion nacimiento",
+      "cambio de nombre",
+      "cuanto demora cambio nombre"
+    ],
     "respuesta": "Permite solicitar el cambio de nombre y/o apellido y la rectificacion correspondiente en la partida de nacimiento.",
     "costo": "$4.270 (Sujeto a resolucion judicial o administrativa)",
+    "duracion": "El tramite es complejo y el plazo de resolucion puede extenderse varios meses, ya que requiere evaluacion legal. Se recomienda consultar directamente en la oficina del Registro Civil para obtener un plazo estimado actualizado.",
     "canal": "presencial",
     "presencialidad": "si",
     "requiere_clave_unica": "no",

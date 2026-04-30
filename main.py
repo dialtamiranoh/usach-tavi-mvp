@@ -37,6 +37,7 @@ class ContextData(BaseModel):
     tramite: Optional[str] = None
     respuesta_base: Optional[str] = None
     costo: Optional[str] = None
+    duracion: Optional[str] = None
     canal: Optional[str] = None
     presencialidad: Optional[str] = None
     requiere_clave_unica: Optional[str] = None
@@ -111,6 +112,7 @@ def context_to_item(context: ContextData) -> Optional[dict]:
         "titulo": context.tramite,
         "respuesta": context.respuesta_base,
         "costo": context.costo,
+        "duracion": context.duracion,
         "canal": context.canal,
         "presencialidad": context.presencialidad,
         "requiere_clave_unica": context.requiere_clave_unica,
@@ -151,14 +153,15 @@ def generate_llm_response(
     history_text = build_history_text(history)
 
     context_text = f"""
-tramite: {item['titulo']}
-respuesta base: {item['respuesta']}
-costo: {item.get('costo', 'No especificado')}
-canal: {item['canal']}
-presencialidad: {item['presencialidad']}
-requiere clave unica: {item['requiere_clave_unica']}
-fuente oficial: {item['fuente']}
-""".strip()
+        tramite: {item['titulo']}
+        respuesta base: {item['respuesta']}
+        costo: {item.get('costo', 'no especificado')}
+        duracion: {item.get('duracion', 'no especificada')}
+        canal: {item['canal']}
+        presencialidad: {item['presencialidad']}
+        requiere clave unica: {item['requiere_clave_unica']}
+        fuente oficial: {item['fuente']}
+        """.strip()
 
     followup_note = (
         "esta pregunta parece ser continuacion del mismo tramite detectado anteriormente."
@@ -224,6 +227,8 @@ def ask_question(question: Question):
             "tramite": "Fuera del alcance de ARCO",
             "respuesta": "La renovacion de licencia de conducir no corresponde al Registro Civil. ARCO esta enfocado en tramites del Registro Civil y su orientacion.",
             "respuesta_base": None,
+            "costo": None,
+            "duracion": None,
             "canal": None,
             "presencialidad": None,
             "requiere_clave_unica": None,
@@ -250,8 +255,9 @@ def ask_question(question: Question):
         return {
             "tramite": matched_item["titulo"],
             "respuesta": respuesta_ia,
-            "costo": matched_item.get("costo"),
             "respuesta_base": matched_item["respuesta"],
+            "costo": matched_item.get("costo", None),
+            "duracion": matched_item.get("duracion", None),
             "canal": matched_item["canal"],
             "presencialidad": matched_item["presencialidad"],
             "requiere_clave_unica": matched_item["requiere_clave_unica"],
@@ -263,6 +269,7 @@ def ask_question(question: Question):
         "respuesta": "ARCO todavia no tiene informacion suficiente para orientar ese tramite dentro del alcance actual del demo.",
         "costo": None,
         "respuesta_base": None,
+        "duracion": None,
         "canal": None,
         "presencialidad": None,
         "requiere_clave_unica": None,
